@@ -121,4 +121,20 @@ for i in range(rows):
 
 """
 """
+Q.10. Write a code to create the given structure using while loop.
+|||||||||
+ |||||||
+  |||||
+   |||
+    |
 
+rows = 5
+spaces = 0
+asterisks = 9
+
+while rows > 0:
+    print(" " * spaces + "|" * asterisks)
+    spaces += 1
+    asterisks -= 2
+    rows -= 1
+"""
